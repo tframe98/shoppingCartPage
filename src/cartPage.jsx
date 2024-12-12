@@ -20,7 +20,7 @@ const CartPage = () => {
   return (
     <div>
       <header>
-        <h1 className='cart-title'>Cart</h1>
+        <h2 className='cart-title'>Cart</h2>
         <span className='cart-number'>{cartItems.length}</span>
         <button className='ship'>Ship To 1234 West St.</button>
       </header>
